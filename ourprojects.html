@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" href="./img/Sentinels.png">
-    <title>Welcome</title>
-</head>
-<body>
-  <header>
-      <div class="logo-container">
-          <img src="./img/Sentinels.png" alt="logo">
-          <text class="logotext">SkyTide Studios</text> 
-      </div>
-      <nav>
-          <ul class="nav-links">
-            <li><a class="nav-link" href="./index.html">Home</a></li>  
-            <li><a class="nav-link" href="./contact.html">About us</a></li>
-            <li><a class="nav-link" href="./contact.html">Our projects</a></li>
-            <li><a class="nav-link" href="./contact.html">Contact</a></li>
-          </ul>
-      </nav>
-  </header>  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Projects</title>
+<script type=module src=main.js></script>
+<redfire-header></redfire-header>
 
+<body>
   <main>
-    <section class="presentation">
+    <h1>Our projects</h1>  
+    <section class="projectpresentation"> 
         <div class="projectdiv">
-            <div class="projectbg">
-                <img src= "./img/TTT.png" alt="projectbgimage">
+            <div class="projectthumbnail">
+                <img src="./img/DHSiteThumb.jpg" alt="">
             </div>
             <div class="intro-text">
-            <h1>Darkage Hunters</h1>
-            <p>[Cancelled project] <br>
-                A person called schmaal is very curious about why his brother, bombbbird always wears a Purple Katana. There is one problem: bombbbird doesn't wanna tell why he keeps wearing it.
-                schmaal being the stubborn person he is, he's going to find out why: he's gonna face the Darkage.
+            <h1>Darkyr Hunters</h1>
+            <p> Status: In development <br>
+               Darkyr Hunters takes place in Inaquia, the land of the hunters. Gear yourself up and explore a giant open-world
+               and uncover the mysteries of the Darkyr! This game is still in heavy development.
             </p>
         </div>
-        <div class="cta">
-            <a href="./index.html"><button class="ctahome">Learn more</button></a>
+        <div class="projectbuttons">
+            <a><button class="readmoreprojectU">Not available</button></a>
         </div>  
     </div>
+
+    <div class="projectdiv">
+        <div class="projectthumbnail">
+            <img src="./img/ThereIsNoPartyThumbnail.png" alt="">
+        </div>
+        <div class="intro-text">
+        <h1>This Birthday Game Does Not Exist!</h1>
+        <p> Status: Finished <br>
+           This is not a game. Do not play.
+        </p>
+    </div>
+    <div class="projectbuttons">
+        <a href="./TBDNEPage.html"><button class="readmoreproject">Learn more</button></a>
+    </div>  
+</div>
     </section>
   </main>
 
 </body>
+
+<redfire-footer></redfire-footer>
 </html>
